@@ -1,0 +1,82 @@
+.winner{
+    color:green;
+}
+.loser{
+    color:red;
+}
+.main-part{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 300px;
+    /* width: 100%; */
+    border: 1px solid black;
+    border-radius: 10px;
+    /* width: 100%; */
+}
+.number{
+    text-align: center;
+    font-size: 30px;
+    border-color: black;
+
+}
+.winning-score{
+    display: flex;
+    font-weight: 100px;
+    gap: 10px;
+    margin-left: 450px;
+    
+    /* justify-content: space-b; */
+}
+.winning-score p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.winning-score select{
+    border: 2px solid #6a1b9a;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3 ease;
+   
+}
+select:focus {
+    border-color: #8e44ad; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(142, 68, 173, 0.5); /* Add subtle shadow */
+}
+.buttonsp1p2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding: 30px;
+}
+.buttonsp1p2 .b1 {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: blue;
+    font-weight: 600;
+}
+.resetb
+{
+    text-align: center;
+    margin-bottom: 100px;
+    
+  
+}
+.resetb button{
+    color: red;
+    cursor: pointer;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-right:20px ;
+    transition: 0.3s;
+
+}
